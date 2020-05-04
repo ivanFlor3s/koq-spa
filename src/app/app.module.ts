@@ -9,13 +9,15 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 // Rutas
 import { AppRoutingModule } from '../routes';
 import { FooterComponent } from './components/shared/footer/footer.component';
+import { CatalogoComponent } from './components/catalogo/catalogo.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CatalogoComponent
   ],
   imports: [
     BrowserModule,
