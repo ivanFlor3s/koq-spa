@@ -52,3 +52,13 @@
 .home-img {
     background-image: url("../src/assets/ropa-medioambiente.jpg");
 }
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+.carousel-inner img {
+    margin: auto;
+}

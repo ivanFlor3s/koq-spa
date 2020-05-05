@@ -10,6 +10,8 @@ import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { AppRoutingModule } from '../routes';
 import { FooterComponent } from './components/shared/footer/footer.component';
 import { CatalogoComponent } from './components/catalogo/catalogo.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
+import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { CatalogoComponent } from './components/catalogo/catalogo.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    CatalogoComponent
+    CatalogoComponent,
+    ContactoComponent,
+    UbicacionComponent
   ],
   imports: [
     BrowserModule,
