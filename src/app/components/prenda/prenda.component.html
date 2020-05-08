@@ -1,0 +1,18 @@
+<div class="container mt-5">
+    <h1>Articulo: <small> {{ articulo.nombre | capitalizar }}</small></h1>
+    <hr>
+    <div class="row">
+        <div class="container-fluid col-md-4">
+            <img [src]="articulo.fotoPrincipal" alt="">
+        </div>
+        <div class="col-md-4">
+            <h2>Talles</h2>
+            <hr>
+            <a *ngFor="let t of tallesNumero" class="btn btn-outline-primary mr-2 mt-2">{{t}}</a>
+            <h3 class="mt-4">Colores</h3>
+            <hr>
+            <p>{{articulo.colores}} </p>
+        </div>
+
+    </div>
+</div>

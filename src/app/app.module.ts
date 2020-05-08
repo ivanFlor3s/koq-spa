@@ -15,6 +15,9 @@ import { FooterComponent } from './components/shared/footer/footer.component';
 import { CatalogoComponent } from './components/catalogo/catalogo.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
+import { TarjetaRopaComponent } from './components/tarjeta-ropa/tarjeta-ropa.component';
+import { PrendaComponent } from './components/prenda/prenda.component';
+import { CapitalizarPipe } from './pipes/capitalizar.pipe';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
     FooterComponent,
     CatalogoComponent,
     ContactoComponent,
-    UbicacionComponent
+    UbicacionComponent,
+    TarjetaRopaComponent,
+    PrendaComponent,
+    CapitalizarPipe
   ],
   imports: [
     BrowserModule,
