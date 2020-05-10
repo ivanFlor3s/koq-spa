@@ -7,7 +7,7 @@
         <div class="card" *ngFor="let prenda of stock">
             <img class="card-img-top" src="{{ prenda.fotoPrincipal }}" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">{{prenda.nombre | capitalizar}} </h5>
+                <h5 class="card-title">{{prenda.nombre | capitalizar:true }} </h5>
                 <p class="card-text">Campera comoda para salir a correr, liviana y te da superpoderes.</p>
                 <h3>{{prenda.precio | currency }}</h3>
             </div>
