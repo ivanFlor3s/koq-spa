@@ -18,6 +18,7 @@ import { UbicacionComponent } from './components/ubicacion/ubicacion.component';
 import { TarjetaRopaComponent } from './components/tarjeta-ropa/tarjeta-ropa.component';
 import { PrendaComponent } from './components/prenda/prenda.component';
 import { CapitalizarPipe } from './pipes/capitalizar.pipe';
+import { DotColorPipe } from './pipes/dot-color.pipe';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CapitalizarPipe } from './pipes/capitalizar.pipe';
     UbicacionComponent,
     TarjetaRopaComponent,
     PrendaComponent,
-    CapitalizarPipe
+    CapitalizarPipe,
+    DotColorPipe
   ],
   imports: [
     BrowserModule,

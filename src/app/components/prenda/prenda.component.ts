@@ -11,6 +11,7 @@ export class PrendaComponent implements OnInit {
 
   articulo: any;
   tallesNumero: string[];
+  colorCode: string;
 
   constructor(private activatedRoute: ActivatedRoute, private ropaService: RopaService) {
     this.activatedRoute.params.subscribe(params => {
