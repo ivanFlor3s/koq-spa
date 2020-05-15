@@ -27,9 +27,98 @@ export class RopaService{
             colores: ['Negro', 'Blanco', 'Rosa', 'Bordo', 'Francia', 'Verde', 'Mostaza', 'Navy', 'Coral'],
             fotoPrincipal: 'assets/img/camisola-de-fibrana.jpg',
             precio: 99,
-        }
+        },
         //['CAMISA DE FRIBRANA', 'CAMISOLA DE FIBRANA', 'BASICA MANGA CORTA', 'BASICA MANGA LARGA', 'CHOMBA MODAL', 'POLERA MODAL', 'BUZO CON CAPUCHA', 'CAMPERA CON CAPUCHA', 'SWEATER PUPERO', 'SWEATER POLERA', 'SWEATER', 'SWEATER CUELLO BOTE', 'CALZA DE ALGODÓN', 'CALZA FRIZADA DE LYCRA']
         //[0, 1, 2, 3, 4, 5, 6, 7, 9, 11],[1, 2, 3, 4, 6, 8, 10],[0, 1, 2, 3, 4, 5, 6, 8, 10],[0, 1, 2, 3, 4, 6, 8, 10],[0, 1, 2, 3, 4, 6, 8, 10],[1, 2, 3, 4, 5, 6, 8],[1, 2, 3, 4, 6, 8],[1, 2, 3, 5, 6, 8, 10],[],[],[],[],[1, 2, 3, 4, 5, 6, 8],[1, 2, 3, 4, 5, 6, 8]
+        {
+            id: 3,
+            nombre: 'BASICA MANGA CORTA',
+            talles: ['0','1', '2', '3', '4', '6', '8', '10'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 340,
+        },
+			{
+            id: 4,
+            nombre: 'BASICA MANGA LARGA',
+            talles: ['0','1', '2', '3', '4', '6', '8', '10'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 420,
+        },
+		{
+            id: 5,
+            nombre: 'CHOMBA MODAL',
+            talles: ['0','1', '2', '3', '4', '6', '8', '10'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 460,
+        },
+		{
+            id: 6,
+            nombre: 'POLERA MODAL',
+            talles: ['1', '2', '3', '4','5', '6', '8'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 420,
+        },
+		{
+            id: 7,
+            nombre: 'CAMPERA CON CAPUCHA',
+            talles: ['1', '2', '3', '5', '6', '8', '10'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 530,
+        },
+		{
+            id: 8,
+            nombre: 'SWEATER PUPERO',
+            talles: ['Unico'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 490,
+        },
+		{
+            id: 8,
+            nombre: 'SWEATER POLERA',
+            talles: ['Unico'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 550,
+        },
+		{
+            id: 9,
+            nombre: 'SWEATER',
+            talles: ['Unico'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 500,
+        },
+		{
+            id: 10,
+            nombre: 'SWEATER CUELLO BOTE',
+            talles: ['Unico'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 500,
+        },
+		{
+            id: 11,
+            nombre: 'CALZA DE ALGODÓN',
+            talles: ['1', '2', '3', '4', '5', '6', '8'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 660,
+        },
+		{
+            id: 12,
+            nombre: 'CALZA FRIZADA DE LYCRA',
+            talles: ['1', '2', '3', '4', '5', '6', '8'],
+            colores: [],
+            fotoPrincipal: '',
+            precio: 660,
+        }
+	];   
     ];
 
     constructor() {
