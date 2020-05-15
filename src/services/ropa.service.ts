@@ -3,13 +3,13 @@ import { Injectable } from '@angular/core';
 @Injectable()
 
 export class RopaService{
-    listaRopa: Ropa[] = [
+     listaRopa: Ropa[] = [
         {
             id: 0,
             nombre: 'BUZO CON CAPUCHA',
             talles: ['1', '2', '3', '4', '6', '8'],
             colores: ['Negro', 'Blanco', 'Rosa viejo', 'Rojo', 'Camel', 'Mostaza'],
-            fotoPrincipal: 'assets/img/buzo-capucha.jpg',
+            fotoPrincipal: 'assets/img/buzo-capucha/buzo-capucha.jpg',
             precio: 99,
         },
         {
@@ -17,7 +17,7 @@ export class RopaService{
             nombre: 'CAMISA DE FRIBRANA',
             talles: ['0', '1', '2', '3', '4', '5', '6', '7', '9', '11'],
             colores: ['Negro', 'Blanco', 'Rojo', 'Celeste', 'Francia', 'Rosa', 'Coral', 'Terracota', 'Camel', 'Verde', 'Rayas B/N', 'Rayas N/B'],
-            fotoPrincipal: 'assets/img/camisa-fibrana.jpg',
+            fotoPrincipal: 'assets/img/camisa-fibrana/camisa-fibrana.jpg',
             precio: 180,
         },
         {
@@ -25,17 +25,19 @@ export class RopaService{
             nombre: 'CAMISOLA DE FIBRANA',
             talles: ['1', '2', '3', '4', '6', '8', '10'],
             colores: ['Negro', 'Blanco', 'Rosa', 'Bordo', 'Francia', 'Verde', 'Mostaza', 'Navy', 'Coral'],
-            fotoPrincipal: 'assets/img/camisola-de-fibrana.jpg',
+            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
             precio: 99,
         },
-        //['CAMISA DE FRIBRANA', 'CAMISOLA DE FIBRANA', 'BASICA MANGA CORTA', 'BASICA MANGA LARGA', 'CHOMBA MODAL', 'POLERA MODAL', 'BUZO CON CAPUCHA', 'CAMPERA CON CAPUCHA', 'SWEATER PUPERO', 'SWEATER POLERA', 'SWEATER', 'SWEATER CUELLO BOTE', 'CALZA DE ALGODÓN', 'CALZA FRIZADA DE LYCRA']
+		
+        //['CAMISA DE FRIBRANA', 'CAMISOLA DE FIBRAN	A', 'BASICA MANGA CORTA', 'BASICA MANGA LARGA', 'CHOMBA MODAL', 'POLERA MODAL', 'BUZO CON CAPUCHA', 'CAMPERA CON CAPUCHA', 'SWEATER PUPERO', 'SWEATER POLERA', 'SWEATER', 'SWEATER CUELLO BOTE', 'CALZA DE ALGODÓN', 'CALZA FRIZADA DE LYCRA']
         //[0, 1, 2, 3, 4, 5, 6, 7, 9, 11],[1, 2, 3, 4, 6, 8, 10],[0, 1, 2, 3, 4, 5, 6, 8, 10],[0, 1, 2, 3, 4, 6, 8, 10],[0, 1, 2, 3, 4, 6, 8, 10],[1, 2, 3, 4, 5, 6, 8],[1, 2, 3, 4, 6, 8],[1, 2, 3, 5, 6, 8, 10],[],[],[],[],[1, 2, 3, 4, 5, 6, 8],[1, 2, 3, 4, 5, 6, 8]
-        {
+		
+		{
             id: 3,
             nombre: 'BASICA MANGA CORTA',
             talles: ['0','1', '2', '3', '4', '6', '8', '10'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/basica-manga-corta/basica-manga-corta.jpg',
             precio: 340,
         },
 			{
@@ -43,7 +45,7 @@ export class RopaService{
             nombre: 'BASICA MANGA LARGA',
             talles: ['0','1', '2', '3', '4', '6', '8', '10'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/basica-manga-larga/basica-manga-larga.jpg',
             precio: 420,
         },
 		{
@@ -51,7 +53,7 @@ export class RopaService{
             nombre: 'CHOMBA MODAL',
             talles: ['0','1', '2', '3', '4', '6', '8', '10'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/chomba-modal/chomba-modal.jpg',
             precio: 460,
         },
 		{
@@ -59,7 +61,7 @@ export class RopaService{
             nombre: 'POLERA MODAL',
             talles: ['1', '2', '3', '4','5', '6', '8'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/polera-modal/polera-modal.jpg',
             precio: 420,
         },
 		{
@@ -67,7 +69,7 @@ export class RopaService{
             nombre: 'CAMPERA CON CAPUCHA',
             talles: ['1', '2', '3', '5', '6', '8', '10'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/campera-capucha/campera-capucha.jpg',
             precio: 530,
         },
 		{
@@ -75,7 +77,7 @@ export class RopaService{
             nombre: 'SWEATER PUPERO',
             talles: ['Unico'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/sweater-pupero/sweater-pupero.jpg',
             precio: 490,
         },
 		{
@@ -83,7 +85,7 @@ export class RopaService{
             nombre: 'SWEATER POLERA',
             talles: ['Unico'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/sweater-polera/sweater-polera.jpg',
             precio: 550,
         },
 		{
@@ -91,7 +93,7 @@ export class RopaService{
             nombre: 'SWEATER',
             talles: ['Unico'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/sweater/sweater.jpg',
             precio: 500,
         },
 		{
@@ -99,7 +101,7 @@ export class RopaService{
             nombre: 'SWEATER CUELLO BOTE',
             talles: ['Unico'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/sweater-cuello-bote/sweater-cuello-bote.jpg',
             precio: 500,
         },
 		{
@@ -107,7 +109,7 @@ export class RopaService{
             nombre: 'CALZA DE ALGODÓN',
             talles: ['1', '2', '3', '4', '5', '6', '8'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/calza-algodon/calza-algodon.jpg',
             precio: 660,
         },
 		{
@@ -115,11 +117,10 @@ export class RopaService{
             nombre: 'CALZA FRIZADA DE LYCRA',
             talles: ['1', '2', '3', '4', '5', '6', '8'],
             colores: [],
-            fotoPrincipal: '',
+            fotoPrincipal: 'assets/img/calza-lycra/calza-lycra.jpg',
             precio: 660,
-        }
-	];   
-    ];
+        },
+	];
 
     constructor() {
         console.log('Running');
