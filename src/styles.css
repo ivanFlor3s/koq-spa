@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+
+.container {
+    max-width: 960px;
+}
+
+
+/*
+   * Custom translucent site header
+   */
+
+
+/*
+   * Dummy devices (replace them with your own or something else entirely!)
+   */
+
+
+/*
+   * Extra utilities
+   */
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.flex-equal>* {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal>* {
+        -ms-flex: 1;
+        -webkit-box-flex: 1;
+        flex: 1;
+    }
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.home-img {
+    background-image: url("../src/assets/ropa-medioambiente.jpg");
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+
+/* Animaciones simples */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}

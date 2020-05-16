@@ -1,0 +1,18 @@
+<div class="container animated fadeIn fast" style="margin-top: 20px;">
+    <br>
+    <h1>Catalogo</h1>
+    <hr>
+
+    <div class="card-columns">
+        <div class="card" *ngFor="let prenda of stock">
+            <img class="card-img-top" src="{{ prenda.fotoPrincipal }}" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{prenda.nombre | capitalizar:true }} </h5>
+                <p class="card-text">Campera comoda para salir a correr, liviana y te da superpoderes.</p>
+                <h3>{{prenda.precio | currency }}</h3>
+            </div>
+            <a [routerLink]="['/articulo', prenda.id ]" class="btn btn-block btn-outline-info"> Ver más</a>
+        </div>
+
+    </div>
+</div>

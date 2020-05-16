@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "koq-spa"
+    }
+  },
+  "defaultProject": "koq-spa",
+  "cli": {
+    "analytics": "0ded3b27-33f6-4699-b7f6-5f14eb30450f"
+  }
 }
