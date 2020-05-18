@@ -11,6 +11,7 @@ export class RopaService{
             colores: ['Negro', 'Blanco', 'Rosa viejo', 'Rojo', 'Camel', 'Mostaza'],
             fotoPrincipal: 'assets/img/buzo-capucha/buzo-capucha.jpg',
             precio: 99,
+            otrasFotos: ['assets/img/buzo-capucha/buzo-capucha2.jpg', 'assets/img/buzo-capucha/buzo-capucha1.jpg']
         },
         {
             id: 1,
@@ -19,6 +20,7 @@ export class RopaService{
             colores: ['Negro', 'Blanco', 'Rojo', 'Celeste', 'Francia', 'Rosa', 'Coral', 'Terracota', 'Camel', 'Verde', 'Rayas B/N', 'Rayas N/B'],
             fotoPrincipal: 'assets/img/camisa-fibrana/camisa-fibrana.jpg',
             precio: 180,
+            otrasFotos: []
         },
         {
             id: 2,
@@ -27,6 +29,7 @@ export class RopaService{
             colores: ['Negro', 'Blanco', 'Rosa', 'Bordo', 'Francia', 'Verde', 'Mostaza', 'Navy', 'Coral'],
             fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
             precio: 99,
+            otrasFotos: []
         },
         {
             id: 3,
@@ -35,6 +38,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/basica-manga-corta/basica-manga-corta2.jpg',
             precio: 340,
+            otrasFotos: []
         },
         {
             id: 4,
@@ -43,6 +47,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/basica-manga-larga/basica-manga-larga.jpg',
             precio: 420,
+            otrasFotos: []
         },
         {
             id: 5,
@@ -51,6 +56,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/chomba-modal/chomba-modal.jpg',
             precio: 460,
+            otrasFotos: []
         },
         {
             id: 6,
@@ -59,6 +65,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/polera-modal/polera-modal.jpg',
             precio: 420,
+            otrasFotos: []
         },
         {
             id: 7,
@@ -67,6 +74,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/campera-capucha/campera-capucha.jpg',
             precio: 530,
+            otrasFotos: []
         },
         {
             id: 8,
@@ -75,6 +83,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/sweater-pupero/sweater-pupero.jpg',
             precio: 490,
+            otrasFotos: []
         },
         {
             id: 8,
@@ -83,6 +92,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/sweater-polera/sweater-polera.jpg',
             precio: 550,
+            otrasFotos: []
         },
         {
             id: 9,
@@ -91,6 +101,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/sweater/sweater.jpg',
             precio: 500,
+            otrasFotos: []
         },
         {
             id: 10,
@@ -99,6 +110,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/sweater-cuello-bote/sweater-cuello-bote.jpg',
             precio: 500,
+            otrasFotos: []
         },
         {
             id: 11,
@@ -107,6 +119,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/calza-algodon/calza-algodon.jpg',
             precio: 660,
+            otrasFotos: []
         },
         {
             id: 12,
@@ -115,6 +128,7 @@ export class RopaService{
             colores: [],
             fotoPrincipal: 'assets/img/calza-lycra/calza-lycra.jpg',
             precio: 660,
+            otrasFotos: []
         },
     ];
 
@@ -141,7 +155,7 @@ export interface Ropa{
     talles: string[];
     colores: string [];
     fotoPrincipal: string;
-    otrasFotos?: string[];
+    otrasFotos: string[];
     precio: number;
 }
 
