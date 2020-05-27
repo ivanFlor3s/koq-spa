@@ -78,7 +78,7 @@ export class RopaService{
         },
         {
             id: 8,
-            nombre: 'SWEATER PUPERO',
+            nombre: 'SWEATER JUVENIL',
             talles: ['Unico'],
             colores: [],
             fotoPrincipal: 'assets/img/sweater-pupero/sweater-pupero.jpg',

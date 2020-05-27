@@ -22,7 +22,11 @@
                         <small>Varia precio segun talle</small>
                     </h5>
                     <h3> {{ articulo.precio | currency }} </h3>
-
+                    <hr>
+                    <h5> Colores </h5>
+                    <ul class="color-ch">
+                        <li *ngFor="let color of misColores"> {{color}}</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -52,3 +56,12 @@
     </div>
 </div>
 <br>
+
+<script>
+    let lista = $(".color-ch");
+    for (let index = 0; index < array.length; index++) {
+
+        const color = $().html(contenido)
+
+    }
+</script>
