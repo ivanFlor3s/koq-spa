@@ -19,6 +19,7 @@ import { TarjetaRopaComponent } from './components/tarjeta-ropa/tarjeta-ropa.com
 import { PrendaComponent } from './components/prenda/prenda.component';
 import { CapitalizarPipe } from './pipes/capitalizar.pipe';
 import { DotColorPipe } from './pipes/dot-color.pipe';
+import { ColorEnDosPipe } from './pipes/color-en-dos.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { DotColorPipe } from './pipes/dot-color.pipe';
     TarjetaRopaComponent,
     PrendaComponent,
     CapitalizarPipe,
-    DotColorPipe
+    DotColorPipe,
+    ColorEnDosPipe
   ],
   imports: [
     BrowserModule,

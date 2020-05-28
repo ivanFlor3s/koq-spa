@@ -27,4 +27,25 @@ export class PrendaComponent implements OnInit {
    }
   ngOnInit(): void {
   }
+  getColor(color: string){
+    switch (color){
+      case 'Negro':
+        return 'black';
+      case 'Blanco':
+        return 'white';
+      case 'Rosa viejo':
+        return 'rgb(212,110,112)';
+      case 'Rojo':
+        return 'red';
+      case 'Coral':
+        return 'rgb(248, 131, 121)';
+      case 'Terracota':
+        return 'rgb(194, 70, 22)';
+      case 'Camel':
+        return 'rgb(193, 154, 107)';
+      case 'Verde':
+        return 'green';
+      default: return 'black';
+    }
+  }
 }

@@ -24,9 +24,12 @@
                     <h3> {{ articulo.precio | currency }} </h3>
                     <hr>
                     <h5> Colores </h5>
-                    <ul class="color-ch">
-                        <li *ngFor="let color of misColores"> {{color}}</li>
-                    </ul>
+                    <div class="alert alert-secondary text-center">
+                        <div>
+                            <h5 class="button btn btn-circle mr-3 mb-2" *ngFor="let color of misColores" [ngStyle]="{'background-color': getColor(color),'color':'white'}" style="-webkit-text-stroke-width: 0.5px; 
+                            -webkit-text-stroke-color: rgb(212, 212, 212);">{{ color | colorEnDos }} </h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,12 +59,3 @@
     </div>
 </div>
 <br>
-
-<script>
-    let lista = $(".color-ch");
-    for (let index = 0; index < array.length; index++) {
-
-        const color = $().html(contenido)
-
-    }
-</script>
