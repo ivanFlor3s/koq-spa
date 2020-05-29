@@ -12,16 +12,16 @@
                 <div class="card-body">
                     <h5 class="card-title">Descripcion</h5>
                     <hr>
-                    <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure dolor temporibus, quae animi libero voluptatum iusto at corrupti fugiat aliquid aperiam impedit cum, sapiente aspernatur. Nesciunt a sint hic mollitia?</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">{{articulo.descripcion}}</h6>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <h5>Talles</h5>
                     <hr>
-                    <a *ngFor="let t of tallesNumero" class="btn btn-outline-primary mr-2 mt-2 ">{{t}}</a>
+                    <a *ngFor="let t of tallesNumero" (click)="displayPrecio(t)" class="btn btn-outline-primary mr-2 mt-2 ">{{t.talle}}</a>
                     <hr>
-                    <h5>Precio
-                        <small>Varia precio segun talle</small>
-                    </h5>
-                    <h3> {{ articulo.precio | currency }} </h3>
+                    <h4>Precio
+                        <small class="text-muted">(seleccione talle para ver el precio)</small>
+                    </h4>
+                    <h3> {{ precioDisplayed | currency }} </h3>
                     <hr>
                     <h5> Colores </h5>
                     <div class="alert alert-secondary text-center">

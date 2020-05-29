@@ -10,21 +10,20 @@ import { RopaService } from '../../../services/ropa.service';
 export class PrendaComponent implements OnInit {
   misColores: any;
   articulo: any;
-  tallesNumero: string[];
+  tallesNumero: any[];
   colorCode: string;
-  colorDisplayed = 'rgb(243, 176, 245)' ;
+  colorDisplayed = 'rgb(255, 235, 205)' ;
   colorTextDisplayed = 'Seleccionar color...';
+  precioDisplayed: 'string';
 
   constructor(private activatedRoute: ActivatedRoute, private ropaService: RopaService) {
     this.activatedRoute.params.subscribe(params => {
-      console.log('el objeto' + params['id']);
       this.articulo = this.ropaService.getArticulo(params['id']);
       console.log(this.articulo);
       this.tallesNumero = this.articulo.talles;
       console.log(this.tallesNumero);
 
       this.misColores = this.articulo.colores;
-      console.log(this.misColores);
     });
    }
   ngOnInit(): void {
@@ -56,5 +55,8 @@ export class PrendaComponent implements OnInit {
   displayColor(color: string){
     this.colorDisplayed = this.getColor(color);
     this.colorTextDisplayed = color;
+  }
+  displayPrecio(talleObj: any){
+    this.precioDisplayed = talleObj.precio;
   }
 }
