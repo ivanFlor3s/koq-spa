@@ -12,6 +12,8 @@ export class PrendaComponent implements OnInit {
   articulo: any;
   tallesNumero: string[];
   colorCode: string;
+  colorDisplayed = 'rgb(243, 176, 245)' ;
+  colorTextDisplayed = 'Seleccionar color...';
 
   constructor(private activatedRoute: ActivatedRoute, private ropaService: RopaService) {
     this.activatedRoute.params.subscribe(params => {
@@ -27,6 +29,7 @@ export class PrendaComponent implements OnInit {
    }
   ngOnInit(): void {
   }
+
   getColor(color: string){
     switch (color){
       case 'Negro':
@@ -45,7 +48,13 @@ export class PrendaComponent implements OnInit {
         return 'rgb(193, 154, 107)';
       case 'Verde':
         return 'green';
+      case 'Mostaza':
+        return 'rgb(235, 189, 48)';
       default: return 'black';
     }
+  }
+  displayColor(color: string){
+    this.colorDisplayed = this.getColor(color);
+    this.colorTextDisplayed = color;
   }
 }
