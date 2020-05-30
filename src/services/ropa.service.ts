@@ -92,9 +92,8 @@ export class RopaService{
             fotoPrincipal: 'assets/img/camisa-fibrana/camisa-fibrana.jpg',
             precio: 180,
             otrasFotos: [],
-            descripcion: ''
+            descripcion: 'Camisa suelta, comoda para salidas al aire libre, en el bar ....'
         },
-        
     ];
 
     constructor() {

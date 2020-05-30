@@ -14,7 +14,8 @@ export class PrendaComponent implements OnInit {
   colorCode: string;
   colorDisplayed = 'rgb(255, 235, 205)' ;
   colorTextDisplayed = 'Seleccionar color...';
-  precioDisplayed: 'string';
+  precioDisplayed = '0';
+  selectedTalle: number;
 
   constructor(private activatedRoute: ActivatedRoute, private ropaService: RopaService) {
     this.activatedRoute.params.subscribe(params => {
@@ -59,4 +60,11 @@ export class PrendaComponent implements OnInit {
   displayPrecio(talleObj: any){
     this.precioDisplayed = talleObj.precio;
   }
+  selectIt(numTalle: number){
+    this.selectedTalle = numTalle;
+  }
+  isSelected(numTalle: number){
+    return this.selectedTalle == numTalle;
+  }
 }
+

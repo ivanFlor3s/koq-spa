@@ -8,8 +8,7 @@
             <img class="card-img-top" src="{{ prenda.fotoPrincipal }}" alt="Card image cap">
             <div class="card-body">
                 <h5 class="card-title">{{prenda.nombre | capitalizar:true }} </h5>
-                <p class="card-text">Campera comoda para salir a correr, liviana y te da superpoderes.</p>
-                <h3>{{prenda.precio | currency }}</h3>
+                <p class="card-text" *ngIf="prenda.descripcion !='0'"> {{ prenda.descripcion}}</p>
             </div>
             <a [routerLink]="['/articulo', prenda.id ]" class="btn btn-block btn-outline-info"> Ver más</a>
         </div>
