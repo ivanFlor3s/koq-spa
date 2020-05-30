@@ -50,6 +50,12 @@ export class PrendaComponent implements OnInit {
         return 'green';
       case 'Mostaza':
         return 'rgb(235, 189, 48)';
+      case 'Celeste':
+        return '#00aae4';
+      case 'Francia':
+        return 'rgb(21, 3, 186)';
+      case 'Rosa':
+        return '#ffabce';
       default: return 'black';
     }
   }
