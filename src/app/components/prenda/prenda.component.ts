@@ -10,21 +10,21 @@ import { RopaService } from '../../../services/ropa.service';
 export class PrendaComponent implements OnInit {
   misColores: any;
   articulo: any;
-  tallesNumero: string[];
+  tallesNumero: any[];
   colorCode: string;
-  colorDisplayed = 'rgb(243, 176, 245)' ;
+  colorDisplayed = 'rgb(255, 235, 205)' ;
   colorTextDisplayed = 'Seleccionar color...';
+  precioDisplayed = '0';
+  selectedTalle: number;
 
   constructor(private activatedRoute: ActivatedRoute, private ropaService: RopaService) {
     this.activatedRoute.params.subscribe(params => {
-      console.log('el objeto' + params['id']);
       this.articulo = this.ropaService.getArticulo(params['id']);
       console.log(this.articulo);
       this.tallesNumero = this.articulo.talles;
       console.log(this.tallesNumero);
 
       this.misColores = this.articulo.colores;
-      console.log(this.misColores);
     });
    }
   ngOnInit(): void {
@@ -50,6 +50,12 @@ export class PrendaComponent implements OnInit {
         return 'green';
       case 'Mostaza':
         return 'rgb(235, 189, 48)';
+      case 'Celeste':
+        return '#00aae4';
+      case 'Francia':
+        return 'rgb(21, 3, 186)';
+      case 'Rosa':
+        return '#ffabce';
       default: return 'black';
     }
   }
@@ -57,4 +63,14 @@ export class PrendaComponent implements OnInit {
     this.colorDisplayed = this.getColor(color);
     this.colorTextDisplayed = color;
   }
+  displayPrecio(talleObj: any){
+    this.precioDisplayed = talleObj.precio;
+  }
+  selectIt(numTalle: number){
+    this.selectedTalle = numTalle;
+  }
+  isSelected(numTalle: number){
+    return this.selectedTalle == numTalle;
+  }
 }
+
