@@ -39,8 +39,8 @@ export class RopaService{
             ],
             colores: ['Negro', 'Blanco', 'Rosa viejo', 'Rojo', 'Camel', 'Mostaza'],
             fotoPrincipal: 'assets/img/buzo-capucha/buzo-capucha.jpg',
-            precio: 99,
-            otrasFotos: ['assets/img/buzo-capucha/buzo-capucha2.jpg', 'assets/img/buzo-capucha/buzo-capucha1.jpg'],
+            otrasFotos: ['assets/img/buzo-capucha/buzo-capucha2.jpg',
+            'assets/img/buzo-capucha/buzo-capucha1.jpg'],
             descripcion: `Buzo comodo para hacer ejercicio salidas casuales, uno nunca sabe donde puede ir. Sentite comoda y deportiva`
         },
         {
@@ -90,9 +90,53 @@ export class RopaService{
             ],
             colores: ['Negro', 'Blanco', 'Rojo', 'Celeste', 'Francia', 'Rosa', 'Coral', 'Terracota', 'Camel', 'Verde', 'Rayas B/N', 'Rayas N/B'],
             fotoPrincipal: 'assets/img/camisa-fibrana/camisa-fibrana.jpg',
-            precio: 180,
             otrasFotos: [],
             descripcion: 'Camisa suelta, comoda para salidas al aire libre, en el bar ....'
+        },
+        {
+            id: 2,
+            nombre: 'SWEATER JUVENIL',
+            talles: [
+                {
+                    talle: 'Mediano',
+                    precio: '300'
+                }
+            ],
+            colores: ['Negro', 'Blanco', 'Gris', 'Amarillo', 'Camel', 'Naranja', 'Mostaza', 'Verde'],
+            fotoPrincipal: 'assets/img/sweater-juvenil/sweater-juvenil9.jpg',
+            otrasFotos: ['assets/img/sweater-juvenil/sweater-juvenil9.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil1.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil2.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil3.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil4.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil5.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil6.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil7.jpg',
+            'assets/img/sweater-juvenil/sweater-juvenil8.jpg',
+        ],
+            descripcion: ''
+        },
+        {
+            id: 3,
+            nombre: 'SWEATER CUELLO BOTE',
+            talles: [
+                {
+                    talle: 'Unico',
+                    precio: '490'
+                }
+            ],
+            colores: ['Negro', 'Blanco', 'Gris'],
+            fotoPrincipal: 'assets/img/sweater-cuello-bote/sweater-cuello-bote.jpg',
+            otrasFotos: ['assets/img/sweater-cuello-bote/sweater-cuello-bote2.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote3.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote4.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote5.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote6.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote7.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote8.jpg',
+            'assets/img/sweater-cuello-bote/sweater-cuello-bote9.jpg',
+        ],
+            descripcion: ''
         },
     ];
 
@@ -120,7 +164,6 @@ export interface Ropa{
     colores: string [];
     fotoPrincipal: string;
     otrasFotos: string[];
-    precio: number;
     descripcion: string;
 }
 

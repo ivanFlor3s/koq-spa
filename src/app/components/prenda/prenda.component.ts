@@ -12,7 +12,7 @@ export class PrendaComponent implements OnInit {
   articulo: any;
   tallesNumero: any[];
   colorCode: string;
-  colorDisplayed = 'rgb(255, 235, 205)' ;
+  colorDisplayed = 'rgb(0, 138, 184)' ;
   colorTextDisplayed = 'Seleccionar color...';
   precioDisplayed = '0';
   selectedTalle: number;
@@ -25,9 +25,13 @@ export class PrendaComponent implements OnInit {
       console.log(this.tallesNumero);
 
       this.misColores = this.articulo.colores;
+
+      this.selectedTalle = this.tallesNumero[0].talle;
     });
    }
   ngOnInit(): void {
+    this.selectedTalle = this.tallesNumero[0].talle;
+    console.log('el talle es:' + this.selectedTalle);
   }
 
   getColor(color: string){
@@ -56,6 +60,14 @@ export class PrendaComponent implements OnInit {
         return 'rgb(21, 3, 186)';
       case 'Rosa':
         return '#ffabce';
+      case 'Fucsia':
+        return '#FF00FF';
+      case 'Amarillo':
+        return 'rgb(255,255,0)';
+      case 'Naranja':
+        return '#ff8000';
+      case 'Gris':
+        return '#9b9b9b';
       default: return 'black';
     }
   }
