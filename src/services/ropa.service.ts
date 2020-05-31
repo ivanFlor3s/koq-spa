@@ -138,6 +138,49 @@ export class RopaService{
         ],
             descripcion: ''
         },
+        {
+            id: 4,
+            nombre: 'CAMPERA MODAL BLUSHER',
+            talles: [
+                {
+                    talle: '1',
+                    precio: '470'
+                },
+                {
+                    talle: '2',
+                    precio: '470'
+                },
+                {
+                    talle: '3',
+                    precio: '530'
+                },
+                {
+                    talle: '5',
+                    precio: '470'
+                },
+                {
+                    talle: '6',
+                    precio: '530'
+                },
+                {
+                    talle: '8',
+                    precio: '590'
+                },
+                {
+                    talle: '10',
+                    precio: '590'
+                },
+            ],
+            colores: ['Negro', 'Blanco', 'Rosa viejo', 'Rojo', 'Mostaza'],
+            fotoPrincipal: 'assets/img/campera-modal-plusher/campera-modal-plusher3.jpg',
+            otrasFotos: ['assets/img/campera-modal-plusher/campera-modal-plusher2.jpg',
+            'assets/img/campera-modal-plusher/campera-modal-plusher5.jpg',
+            'assets/img/campera-modal-plusher/campera-modal-plusher4.jpg',
+            'assets/img/campera-modal-plusher/campera-modal-plusher.jpg',
+            'assets/img/campera-modal-plusher/campera-modal-plusher6.jpg',
+        ],
+            descripcion: ''
+        },
     ];
 
     constructor() {
