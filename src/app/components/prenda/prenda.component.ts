@@ -66,6 +66,8 @@ export class PrendaComponent implements OnInit {
         return 'rgb(255,255,0)';
       case 'Naranja':
         return '#ff8000';
+      case 'Azul marino':
+        return '#060a93';
       case 'Gris':
         return '#9b9b9b';
       default: return 'black';
