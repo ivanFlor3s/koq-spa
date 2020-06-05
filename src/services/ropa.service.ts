@@ -232,11 +232,9 @@ export class RopaService{
             otrasFotos: [
             'assets/img/camisa-rayon-twill/camisa-rayon-twill.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill1.jpg',
-            'assets/img/camisa-rayon-twill/camisa-rayon-twill2.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill4.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill5.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill6.jpg',
-            'assets/img/camisa-rayon-twill/camisa-rayon-twill7.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill3.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill9.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill10.jpg',
@@ -249,16 +247,128 @@ export class RopaService{
             'assets/img/camisa-rayon-twill/camisa-rayon-twill17.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill18.jpg',
             'assets/img/camisa-rayon-twill/camisa-rayon-twill19.jpg',
-            'assets/img/camisa-rayon-twill/camisa-rayon-twill20.jpg',
-            'assets/img/camisa-rayon-twill/camisa-rayon-twill21.jpg',
         ],
             descripcion: ''
-        }
+        },
+        {
+            id: 6,
+            nombre: 'MANGA LARGA MODAL',
+            talles: [
+                {
+                    talle: '0',
+                    precio: '370'
+                },
+                {
+                    talle: '1',
+                    precio: '370'
+                },
+                {
+                    talle: '2',
+                    precio: '370'
+                },
+                {
+                    talle: '3',
+                    precio: '420'
+                },
+                {
+                    talle: '4',
+                    precio: '420'
+                },
+                {
+                    talle: '5',
+                    precio: '420'
+                },
+                {
+                    talle: '6',
+                    precio: '490'
+                },
+                {
+                    talle: '8',
+                    precio: '490'
+                },
+                {
+                    talle: '10',
+                    precio: '490'
+                },
+            ],
+            colores: ['Negro', 'Blanco', 'Bordo', 'Gris', 'Francia', 'Rosa viejo', 'Rojo', 'Mostaza'],
+            fotoPrincipal: 'assets/img/manga-larga-modal/manga-larga-modal.jpg',
+            otrasFotos: [
+            'assets/img/manga-larga-modal/manga-larga-modal2.jpg',
+            'assets/img/manga-larga-modal/manga-larga-modal3.jpg',
+            'assets/img/manga-larga-modal/manga-larga-modal4.jpg',
+            'assets/img/manga-larga-modal/manga-larga-modal5.jpg',
+            'assets/img/manga-larga-modal/manga-larga-modal6.jpg',
+        ],
+            descripcion: ''
+        },
+        {
+            id: 7,
+            nombre: 'CAMISOLA DE FIBRANA',
+            talles: [
+                {
+                    talle: '0',
+                    precio: '590'
+                },
+                {
+                    talle: '1',
+                    precio: '590'
+                },
+                {
+                    talle: '2',
+                    precio: '590'
+                },
+                {
+                    talle: '3',
+                    precio: '720'
+                },
+                {
+                    talle: '4',
+                    precio: '720'
+                },
+                {
+                    talle: '5',
+                    precio: '720'
+                },
+                {
+                    talle: '6',
+                    precio: '800'
+                },
+                {
+                    talle: '7',
+                    precio: '800'
+                },
+                {
+                    talle: '9',
+                    precio: '900'
+                },
+                {
+                    talle: '11',
+                    precio: '900'
+                },
+            ],
+            colores: ['Negro', 'Blanco', 'Rosa', 'Mostaza', 'Bordo', 'Francia', 'Verde', 'Coral'],
+            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
+            otrasFotos: [
+            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
+            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
+        ],
+            descripcion: ''
+        },
 
     ];
 
     constructor() {
-        console.log('Running');
+        console.log('Corriendo el forest gump');
     }
 
     getRopas(){
