@@ -22,22 +22,32 @@
     <br>
     <h3> Donde estamos?</h3>
     <hr>
-    <div>
-        <div>
-            <h5>Galeria Luz - Local 12</h5>
-            <iframe class="mt-3 mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.760178687836!2d-58.479938761877584!3d-34.62841138604676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc993836dd053%3A0x9cfc2f13309143d8!2sAv.%20Avellaneda%203579%2C%20C1407%20EJC%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1591321251733!5m2!1ses-419!2sar"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="row">
+        <div class="col-md-8 mb-3">
+            <div *ngIf="(displayMap == 'local1')" class=" animated fadeIn fast">
+                <h5>Galeria Luz - Local 12</h5>
+                <iframe class="mt-3 mb-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d820.760178687836!2d-58.479938761877584!3d-34.62841138604676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc993836dd053%3A0x9cfc2f13309143d8!2sAv.%20Avellaneda%203579%2C%20C1407%20EJC%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1591321251733!5m2!1ses-419!2sar"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
+            </div>
+            <div *ngIf="(displayMap == 'local2')" class=" animated fadeIn fast">
+                <h5>Galeria La Divina - Local 10</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.024028011422!2d-58.47674718435068!3d-34.628833080452935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9920129b5c5%3A0x6c92424464f11fa1!2sCuenca%20245%2C%20C1406%20CABA!5e0!3m2!1ses-419!2sar!4v1591321515917!5m2!1ses-419!2sar"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div *ngIf="(displayMap == 'local3')" class=" animated fadeIn fast">
+                <h5>Galeria Santiago Apostol - Local 5</h5>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.024028011422!2d-58.47674718435068!3d-34.628833080452935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9920129b5c5%3A0x6c92424464f11fa1!2sCuenca%20245%2C%20C1406%20CABA!5e0!3m2!1ses-419!2sar!4v1591321515917!5m2!1ses-419!2sar"
+                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
         </div>
-        <div>
-            <h5>Galeria La Divina - Local 10</h5>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.024028011422!2d-58.47674718435068!3d-34.628833080452935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9920129b5c5%3A0x6c92424464f11fa1!2sCuenca%20245%2C%20C1406%20CABA!5e0!3m2!1ses-419!2sar!4v1591321515917!5m2!1ses-419!2sar"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="col-md-4">
+            <button type="button" (click)="setMap('Local 1')" class="btn btn-outline-primary mt-4 mb-4" [ngClass]="{active: displayMap == 'local1'}">Galeria Luz - Local 12 <br> Av. Avellaneda 3579 </button>
+            <br>
+            <button type="button" (click)="setMap('Local 2')" class="btn btn-outline-primary mb-4" [ngClass]="{active: displayMap == 'local2'}">Galeria La Divina - Local 10 <br> Cuenca 245 </button>
+            <br>
+            <button type="button" (click)="setMap('Local 3')" class="btn btn-outline-primary mb-4" [ngClass]="{active: displayMap == 'local3'}">Galeria Santiago Apostol - Local 5 <br> Joaquin V. Gonzalez 460</button>
         </div>
-        <div>
-            <h5>Galeria Santiago Apostol - Local 5</h5>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.024028011422!2d-58.47674718435068!3d-34.628833080452935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9920129b5c5%3A0x6c92424464f11fa1!2sCuenca%20245%2C%20C1406%20CABA!5e0!3m2!1ses-419!2sar!4v1591321515917!5m2!1ses-419!2sar"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
+
     </div>
 </div>
