@@ -8,7 +8,7 @@
         <div class="card" *ngFor="let prenda of stock">
             <img class="card-img-top" src="{{ prenda.fotoPrincipal }}" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">{{prenda.nombre | capitalizar:true }} </h5>
+                <h5 class="card-title">{{prenda.nombre | capitalizar:false }} </h5>
                 <p class="card-text" *ngIf="prenda.descripcion !='0'"> {{ prenda.descripcion}}</p>
             </div>
             <a [routerLink]="['/articulo', prenda.id ]" class="btn btn-block btn-outline-info"> Ver más</a>

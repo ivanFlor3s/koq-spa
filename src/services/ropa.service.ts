@@ -512,20 +512,9 @@ export class RopaService{
                 },
             ],
             colores: ['Negro', 'Blanco', 'Rojo', 'Gris', 'Melange', 'Coral', 'Camel', 'Rosa'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
-            otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
-        ],
+            fotoPrincipal: 'assets/img/tirita-modal-basica/tirita-modal-basica.jpg',
+            otrasFotos: [],
+
             descripcion: ''
         },
         {
@@ -562,45 +551,8 @@ export class RopaService{
                 },
             ],
             colores: ['Negro', 'Blanco'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
+            fotoPrincipal: 'assets/img/polera-modal/polera-modal.jpg',
             otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
-        ],
-            descripcion: ''
-        },
-        {
-            id: 12,
-            nombre: 'SWEATER POLERA',
-            talles: [
-                {
-                    talle: 'Unico',
-                    precio: '290'
-                }
-            ],
-            colores: ['Negro', 'Rosa', 'Gris'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
-            otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
         ],
             descripcion: ''
         },
@@ -610,24 +562,13 @@ export class RopaService{
             talles: [
                 {
                     talle: 'Grande',
-                    precio: '500'
+                    precio: '550'
                 }
             ],
             colores: ['Negro', 'Rosa viejo', 'Blanco', 'Camel'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
+            fotoPrincipal: 'assets/img/sweater-polera/sweater-polera.jpg',
             otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
-        ],
+                    ],
             descripcion: ''
         },
         {
@@ -688,75 +629,13 @@ export class RopaService{
                 },
             ],
             colores: ['Negro', 'Blanco'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
-            otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
-        ],
-            descripcion: ''
-        },
-        {
-            id: 16,
-            nombre: 'CALZA TERMICA',
-            talles: [
-                {
-                    talle: '1',
-                    precio: '360'
-                },
-                {
-                    talle: '2',
-                    precio: '360'
-                },
-                {
-                    talle: '3',
-                    precio: '410'
-                },
-                {
-                    talle: '4',
-                    precio: '410'
-                },
-                {
-                    talle: '5',
-                    precio: '480'
-                },
-                {
-                    talle: '6',
-                    precio: '480'
-                },
-                {
-                    talle: '8',
-                    precio: '480'
-                },
-            ],
-            colores: ['Negro', 'Gris'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
-            otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
-        ],
+            fotoPrincipal: 'assets/img/camiseta-termica/camiseta-termica.jpg',
+            otrasFotos: [],
             descripcion: ''
         },
         {
             id: 17,
-            nombre: 'CALZA ALGODÓN',
+            nombre: 'CALZA DE ALGODÓN',
             talles: [
                 {
                     talle: '1',
@@ -788,19 +667,10 @@ export class RopaService{
                 },
             ],
             colores: ['Negro', 'Gris'],
-            fotoPrincipal: 'assets/img/camisola-fibrana/camisola-fibrana.jpg',
+            fotoPrincipal: 'assets/img/calza-algodon/calza-algodon1.jpg',
             otrasFotos: [
-            'assets/img/camisola-fibrana/camisola-fibrana1.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana2.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana3.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana4.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana5.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana6.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana7.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana8.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana9.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana10.jpg',
-            'assets/img/camisola-fibrana/camisola-fibrana11.jpg',
+                'assets/img/calza-algodon/calza-algodon.jpg',
+                'assets/img/calza-algodon/calza.jpg'
         ],
             descripcion: ''
         },
