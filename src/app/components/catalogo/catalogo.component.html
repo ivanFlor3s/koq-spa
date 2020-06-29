@@ -1,13 +1,15 @@
-<div class="container animated fadeIn fast" style="margin-top: 20px;">
+<div class="container animated fadeIn" style="margin-top: 20px;">
     <br>
     <h1>Catalogo</h1>
+    <span> Aca vas a poder ver todos nuestros articulos, recorda que podes tocar el boton de <strong> ver mas</strong> para verlos en detalle</span>
     <hr>
+    <app-loading *ngIf="loading"></app-loading>
 
     <div class="card-columns">
         <div class="card" *ngFor="let prenda of stock">
             <img class="card-img-top" src="{{ prenda.fotoPrincipal }}" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">{{prenda.nombre | capitalizar:true }} </h5>
+                <h5 class="card-title">{{prenda.nombre | capitalizar:false }} </h5>
                 <p class="card-text" *ngIf="prenda.descripcion !='0'"> {{ prenda.descripcion}}</p>
             </div>
             <a [routerLink]="['/articulo', prenda.id ]" class="btn btn-block btn-outline-info"> Ver más</a>

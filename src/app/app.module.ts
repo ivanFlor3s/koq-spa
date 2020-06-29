@@ -20,6 +20,7 @@ import { PrendaComponent } from './components/prenda/prenda.component';
 import { CapitalizarPipe } from './pipes/capitalizar.pipe';
 import { DotColorPipe } from './pipes/dot-color.pipe';
 import { ColorEnDosPipe } from './pipes/color-en-dos.pipe';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { ColorEnDosPipe } from './pipes/color-en-dos.pipe';
     PrendaComponent,
     CapitalizarPipe,
     DotColorPipe,
-    ColorEnDosPipe
+    ColorEnDosPipe,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

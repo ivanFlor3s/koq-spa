@@ -10,9 +10,13 @@ import { RopaService } from '../../../services/ropa.service';
 })
 export class CatalogoComponent implements OnInit {
   stock: any[] = [];
+  loading: boolean;
   constructor(private ropaService: RopaService ) {
+    this.loading = true;
     console.log(this.ropaService.getRopas());
     this.stock = this.ropaService.getRopas();
+
+    this.loading = false;
   }
   ngOnInit(): void {
   }
